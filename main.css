@@ -1,0 +1,100 @@
+body {
+            background-size: contain;
+            margin: 0;
+}
+
+.header {
+            z-index: 99;
+            background-color: bisque;
+            width: 100%;
+            height: fit-content;
+            padding: 15px 0px;
+            top: 0;
+            right:0;
+            left: 0;
+            margin: 0;
+            text-align: center;
+}
+
+p , h4{
+            margin: 0;
+            font-family: Recursive Mono Linear Light;
+            font-weight: 600;
+}
+
+.heading {
+            font-size: large;
+}
+
+.note {
+            color: red;
+            margin-top: 10px;
+            font-size: 15px;
+}
+
+.object-inp {
+            background-color: whitesmoke;
+            font-family: Recursive Mono Linear Light;
+            font-weight: 600;
+            font-size: medium;
+            padding: 8px 15px;
+            border: 0px none;
+            border-radius: 10px;
+            outline: none;
+            margin-top: 20px;
+            width: 300px;
+}
+
+.inp-container {
+            margin-top: 30px;
+}
+
+
+.myButton {
+         width: fit-content;
+         height: fit-content;
+         padding: 5px 8px;
+         font-family: 'Recursive Mono Linear Light';
+         font-weight: 600;
+         text-align: center;
+         font-size: 15px;
+         border-radius: 8px;
+}
+
+.red {
+         background-color: tomato;
+         border: 2px solid tomato;
+}
+
+.yellow {
+         background-color: rgb(243, 243, 71);
+         border: 2px solid rgb(243, 243, 71);
+}
+
+.green {
+         background-color: lightgreen;
+         border: 2px solid lightgreen;
+}
+
+.btns-container {
+            margin-top: 30px;
+}
+
+
+.green:hover {
+         background-color: rgb(93, 168, 93);
+         border: 2px solid rgb(50, 104, 50);
+         cursor: pointer;
+}
+
+canvas {
+            box-shadow: 8px 8px 10px whitesmoke;
+            border-radius: 20px;
+            margin-top: 190px;
+            width: 380px;
+            height: 380px;
+}
+
+.yellow {
+            margin-bottom: 20px;
+}

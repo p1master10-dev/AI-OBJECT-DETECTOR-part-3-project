@@ -1,0 +1,29 @@
+<html>
+<head>
+            <title>AI objects Detector</title>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+            
+            <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+            
+            <link rel="stylesheet" href="main.css">
+</head>
+<body background="background_a.png">
+            <center>
+                        <div class="header">
+                                    <p class="heading">AI Object Detector</p>
+                                    <p class="note">Note : If the input name you have written below matches the item in the camera then only it will detect</p>
+                        </div>
+                        <div class="inp-container">
+                                    <h4 class="inp-text">Input the object's name : </h4>
+                                    <input type="text" id="object-inp" class="object-inp" placeholder="Your object name...">
+                        </div>
+                        <div class="btns-container">
+                                    <button onclick="start()" class="myButton green" id="start">Start</button>
+                                    <br>
+                                    <h3 id="object_found_status" class="myButton yellow">Object Detector : NaN</h3>
+                                    <h3 id="status" class="myButton red">Status : Not Started</h3>
+                        </div>
+            </center>
+</body>
+<script src='main.js'></script>
+</html>
